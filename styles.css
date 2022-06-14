@@ -21,7 +21,7 @@ body {
     --container-width: 1200px;
     --border-radius: 10px;
     --gap: 40px;
-    --light-btn: url("lightbulb-black.png");
+    --light-btn: url("img/lightbulb-black.png");
 }
 
 :root.dark {
@@ -39,7 +39,7 @@ body {
     --container-width: 1200px;
     --border-radius: 10px;
     --gap: 40px;
-    --light-btn: url("light.png");
+    --light-btn: url("img/light.png");
     
  
 }
