@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-box">
+        <div class="inp-title">Add Book</div>
+        <div class="inputdiv">
+            <div>
+                <label for="author"></label>
+                <input type="text" id="author" class="input" placeholder=" Author" maxlength="50" >
+            </div>
+            <div>
+                <label for="title"></label>
+                <input type="text" id="title" class='input' placeholder=" Title" maxlength="50">
+            </div>
+            <div>
+                <label for="pages"></label>
+                <input type="text" id="pages" class="input" placeholder=" Pages" maxlength="4" value="pages">
+            </div>
+        </div>
+        <div class="checkbox">
+            <input type="radio" id="read" name="status">
+            <label for="read">Read</label>
+            <input type="radio" id="unread" name="status">
+            <label for="unread">Unread</label>
+        </div>
+        <div><button class="submit">Submit</button></div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <p class="library">Library!</p>
+            <div class="add">+ Add Book</div>
+            <div class="theme"></div>
+        </div>
+    </div>
+    <div class="main-container"></div>
+    <div class="footer"><p>Copyright © 2022 Zahin</p></div>
+</body>
+</html>
